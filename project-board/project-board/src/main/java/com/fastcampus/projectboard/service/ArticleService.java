@@ -68,5 +68,9 @@ public class ArticleService {
 
     }
 
+    public long getArticleCount(){
+        return articleRepository.count();
+    }
+
 
 }
